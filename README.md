@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue)
-![Tools](https://img.shields.io/badge/Tools-Wireshark%20%7C%20Nmap%20%7C%20curl-orange)
+![Tools](https://img.shields.io/badge/Tools-Wireshark%20%7C%20Nmap%20%7C%20pyvizio-orange)
 
 ## Project Overview
 
@@ -33,7 +33,7 @@ This project examined the security of a Vizio Smart TV by analyzing its SmartCas
 * Communication Method: SmartCast API over HTTPS/TLS
 * Network Type: Local Area Network (LAN)
 
-### Investigation Methodology
+## Investigation Methodology
 
 ### Device Discovery
 
@@ -74,6 +74,7 @@ Wireshark was used to capture traffic generated during API communication. TCP co
 * Network Reconnaissance
 * Security Documentation
 * Technical Troubleshooting
+* Encrypted Traffic Analysis
 
 ## Screenshots
 
@@ -101,6 +102,6 @@ Wireshark was used to capture traffic generated during API communication. TCP co
 
 (Add screenshot)
 
-## Lessons Learned
+## Conclusion
 
-This project provided hands-on experience with IoT security, network reconnaissance, API authentication, and packet analysis. It demonstrated how exposed services contribute to attack surface, how token-based authentication protects device functionality, and how encrypted traffic can still reveal meaningful network behavior during investigation.
+This project provided hands-on experience investigating network communications, analyzing encrypted traffic, identifying exposed services, and documenting security observations. Through the use of Nmap, Wireshark, SmartCast API analysis, and network reconnaissance techniques, I developed practical skills in traffic analysis, security investigation, and technical troubleshooting that are applicable to security operations and network defense environments.
