@@ -80,8 +80,8 @@ Wireshark was used to capture traffic generated during API communication. TCP co
 
 ### Network Discovery
 
-<img width="725" height="402" alt="image" src="https://github.com/user-attachments/assets/6d1d7b43-486b-4975-821e-4a1a9411a262" />
 
+An Nmap host discovery scan was performed against the local subnet to identify active devices. The Vizio Smart TV was identified through Nmap host discovery and vendor identification. This confirmed network visibility, device reachability, and the ability to enumerate IoT devices on the local subnet.
 
 ### SmartCast Service Enumeration
 
