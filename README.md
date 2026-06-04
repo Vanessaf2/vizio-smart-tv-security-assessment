@@ -80,7 +80,8 @@ Wireshark was used to capture traffic generated during API communication. TCP co
 
 ### Network Discovery
 
-(Add screenshot)
+<img width="725" height="402" alt="image" src="https://github.com/user-attachments/assets/6d1d7b43-486b-4975-821e-4a1a9411a262" />
+
 
 ### SmartCast Service Enumeration
 
